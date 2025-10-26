@@ -99,8 +99,7 @@ st.markdown("""
     <div style="padding: 2rem; background: rgba(255, 255, 255, 0.03); border-radius: 16px; border: 1px solid rgba(255, 255, 255, 0.1);">
         <h4 style="color: #4facfe; margin-top: 0;">Why Toy Mode?</h4>
         <p style="color: #b8c5d6; line-height: 1.8; margin-bottom: 1.5rem;">
-            Full DES with 2⁵⁶ possible keys cannot be exhaustively searched in reasonable time on a single computer. 
-            Our simulator uses a <strong>reduced keyspace</strong> approach for educational demonstration.
+           Because the full DES keyspace (2⁵⁶) is too large for a single laptop, the simulator uses a toy mode that fixes most key bits and only varies the lowest N bits so we can demonstrate exponential growth practically.”
         </p>
         <h4 style="color: #4facfe;">How It Works:</h4>
         <ul style="color: #b8c5d6; line-height: 1.8;">

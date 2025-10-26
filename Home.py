@@ -34,7 +34,7 @@ st.markdown(
     """
     ### 🎯 Welcome to the DES Brute-Force Simulator!
 
-    This interactive tool is designed to help you understand the Data Encryption Standard (DES) and the principles behind brute-force attacks. Explore how DES encryption works, simulate a brute-force attack to see its limitations, and delve into the theoretical aspects of cryptographic security.
+    This project is an educational DES brute-force simulator. It lets users encrypt a message with a DES key, then demonstrates how an attacker could attempt to recover that key by testing many candidate keys. Because full DES keyspace (2⁵⁶) is too large for a single laptop, the simulator uses a toy mode that fixes most key bits and only varies the lowest N bits so we can demonstrate exponential growth and time/complexity practically.”
 
     Navigate through the pages using the sidebar to:
     - **📘 Theory**: Learn about DES, its structure, and keyspace scaling.
